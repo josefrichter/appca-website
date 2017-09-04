@@ -7,7 +7,7 @@ var sass        = require('gulp-sass');
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
     // return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'])
-    return gulp.src(['assets/scss/*.scss'])
+    return gulp.src(['assets/sass/*.scss'])
         .pipe(sass())
         .pipe(gulp.dest("assets/css"))
         .pipe(browserSync.stream());
@@ -28,7 +28,7 @@ gulp.task('serve', ['sass'], function() {
     });
 
     // gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);
-    gulp.watch(['src/scss/*.scss'], ['sass']);
+    gulp.watch(['assets/sass/*.scss'], ['sass']);
     // gulp.watch("src/*.html").on('change', browserSync.reload);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
