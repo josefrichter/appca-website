@@ -25,6 +25,23 @@
   }
 }
 
+.section-testimonial {
+  .text {
+    // align-self: center;
+    padding: 30px;
+  }
+  img {
+    max-width: 20vh;
+    margin: 20px;
+  }
+  .meta {
+    // align-self: center;
+    * {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .section-team {
   h2 {
     margin-top: 10vh;

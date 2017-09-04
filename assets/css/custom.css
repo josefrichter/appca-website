@@ -18,6 +18,16 @@
   #highfive .content h1 {
     margin-bottom: .1em; }
 
+.section-testimonial .text {
+  padding: 30px; }
+
+.section-testimonial img {
+  max-width: 20vh;
+  margin: 20px; }
+
+.section-testimonial .meta * {
+  margin-bottom: 0; }
+
 .section-team h2 {
   margin-top: 10vh;
   margin-bottom: 12vh; }
