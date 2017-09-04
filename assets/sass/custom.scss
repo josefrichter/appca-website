@@ -5,6 +5,10 @@
   background: rgba(255,255,255,0.92);
 }
 
+.page-header {
+  height: 85vh;
+}
+
 .section-about-us {
   height: 80vh;
   display: flex;
@@ -17,7 +21,20 @@
     text-align: left;
     position: absolute;
     top: 16%;
-    left: 20%;
+    left: 10%;
+    padding-right: 20%;
+    h1 {
+      margin-bottom: .1em;
+    }
+  }
+}
+
+#onn {
+  .content {
+    text-align: left;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
     padding-right: 20%;
     h1 {
       margin-bottom: .1em;
@@ -28,11 +45,19 @@
 .section-testimonial {
   .text {
     // align-self: center;
+    color:#666;
     padding: 30px;
   }
   img {
-    max-width: 20vh;
+    max-width: 15vh;
     margin: 20px;
+  }
+  h5 {
+    font-weight: 300;
+    strong {
+      font-weight: 500;
+      color:#333;
+    }
   }
   .meta {
     // align-self: center;

@@ -3,6 +3,9 @@
   .navbar.navbar-transparent {
     color: black; }
 
+.page-header {
+  height: 85vh; }
+
 .section-about-us {
   height: 80vh;
   display: flex;
@@ -13,17 +16,33 @@
   text-align: left;
   position: absolute;
   top: 16%;
-  left: 20%;
+  left: 10%;
   padding-right: 20%; }
   #highfive .content h1 {
     margin-bottom: .1em; }
 
+#onn .content {
+  text-align: left;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  padding-right: 20%; }
+  #onn .content h1 {
+    margin-bottom: .1em; }
+
 .section-testimonial .text {
+  color: #666;
   padding: 30px; }
 
 .section-testimonial img {
-  max-width: 20vh;
+  max-width: 15vh;
   margin: 20px; }
+
+.section-testimonial h5 {
+  font-weight: 300; }
+  .section-testimonial h5 strong {
+    font-weight: 500;
+    color: #333; }
 
 .section-testimonial .meta * {
   margin-bottom: 0; }

@@ -2612,7 +2612,7 @@ body {
       padding: 5px 15px; }
   .navbar .navbar-nav .nav-link:not(.btn) {
     text-transform: uppercase;
-    font-size: 0.7142em;
+    font-size: 0.8571em;
     padding: 0.5rem 0.7rem;
     line-height: 1.625rem; }
     .navbar .navbar-nav .nav-link:not(.btn) i.fa + p,
