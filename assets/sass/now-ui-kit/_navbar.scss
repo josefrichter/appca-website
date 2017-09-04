@@ -9,7 +9,7 @@
         vertical-align: middle;
 
         &:not(.btn):not(.dropdown-item){
-            color: $white-color;
+            color: $default-color;
         }
     }
 
@@ -133,7 +133,7 @@
     &.navbar-transparent{
         background-color: $transparent-bg !important;
         box-shadow: none;
-        color: $white-color;
+        color: $black-color;
         padding-top: 20px;
     }
 

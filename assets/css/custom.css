@@ -1,0 +1,31 @@
+.navbar {
+  background: rgba(255, 255, 255, 0.92); }
+  .navbar.navbar-transparent {
+    color: black; }
+
+.section-about-us {
+  height: 80vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center; }
+
+#highfive .content {
+  text-align: left;
+  position: absolute;
+  top: 16%;
+  left: 20%;
+  padding-right: 20%; }
+  #highfive .content h1 {
+    margin-bottom: .1em; }
+
+.section-team h2 {
+  margin-top: 10vh;
+  margin-bottom: 12vh; }
+
+.section-team .team-player {
+  margin-bottom: 80px;
+  padding: 0 20px; }
+  .section-team .team-player p.description {
+    text-align: justify; }
+  .section-team .team-player img {
+    max-width: 150px; }

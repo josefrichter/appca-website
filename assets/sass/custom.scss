@@ -1,0 +1,43 @@
+.navbar {
+  &.navbar-transparent {
+    color:black;
+  }
+  background: rgba(255,255,255,0.92);
+}
+
+.section-about-us {
+  height: 80vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+#highfive {
+  .content {
+    text-align: left;
+    position: absolute;
+    top: 16%;
+    left: 20%;
+    padding-right: 20%;
+    h1 {
+      margin-bottom: .1em;
+    }
+  }
+}
+
+.section-team {
+  h2 {
+    margin-top: 10vh;
+    margin-bottom: 12vh;
+  }
+  .team-player {
+    margin-bottom: 80px;
+    padding: 0 20px;
+    p.description {
+      text-align: justify;
+    }
+    img {
+      max-width: 150px;
+    }
+  }
+}
