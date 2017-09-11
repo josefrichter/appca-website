@@ -33,5 +33,13 @@ gulp.task('serve', ['sass'], function() {
     gulp.watch("*.html").on('change', browserSync.reload);
 });
 
+gulp.task('serveprod', function() {
+  connect.server({
+    root: ".",
+    port: process.env.PORT || 5000, // localhost:5000
+    livereload: false
+  });
+});
+
 // gulp.task('default', ['js','serve']);
 gulp.task('default', ['serve']);
