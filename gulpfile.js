@@ -3,6 +3,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
+var connect     = require('gulp-connect');
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
@@ -21,7 +22,7 @@ gulp.task('js', function() {
 });
 
 // Static Server + watching scss/html files
-gulp.task('serve', ['sass'], function() {
+gulp.task('localserve', ['sass'], function() {
 
     browserSync.init({
         server: "."
@@ -45,4 +46,4 @@ gulp.task('build', function() {
 });
 
 // gulp.task('default', ['js','serve']);
-gulp.task('default', ['serve']);
+gulp.task('default', ['localserve']);
