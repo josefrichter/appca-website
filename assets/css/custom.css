@@ -19,6 +19,14 @@
   flex-flow: column nowrap;
   justify-content: center; }
 
+.section-coming-soon {
+  min-height: 30vh;
+  padding-top: 100px !important;
+  padding-bottom: 0; }
+
+.gallery {
+  padding: 0; }
+
 #highfive .content {
   text-align: left;
   position: absolute;
