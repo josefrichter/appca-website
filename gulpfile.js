@@ -36,10 +36,7 @@ gulp.task('serve', ['sass'], function() {
 gulp.task('build', function() {
   gulp.src(['assets/sass/*.scss'])
     .pipe(sass())
-    .pipe(gulp.dest("assets/css"))
-});
-
-gulp.task('serveprod', function() {
+    .pipe(gulp.dest("assets/css"));
   connect.server({
     root: ".",
     port: process.env.PORT || 5000, // localhost:5000
