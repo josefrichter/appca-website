@@ -33,6 +33,12 @@ gulp.task('serve', ['sass'], function() {
     gulp.watch("*.html").on('change', browserSync.reload);
 });
 
+gulp.task('build', function() {
+  gulp.src(['assets/sass/*.scss'])
+    .pipe(sass())
+    .pipe(gulp.dest("assets/css"))
+});
+
 gulp.task('serveprod', function() {
   connect.server({
     root: ".",
