@@ -1,0 +1,29 @@
+#onn .page-header-image {
+  background-image: -webkit-image-set(url("https://ucarecdn.com/0817a59a-7e54-4c20-a350-9cedba5c875d/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/576x/") 1x, url("https://ucarecdn.com/0817a59a-7e54-4c20-a350-9cedba5c875d/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1300x/-/crop/750x700/40,80/") 2x); }
+
+#highfive .page-header-image {
+  background-image: -webkit-image-set(url("https://ucarecdn.com/55a51ab4-393b-493a-80eb-43a537c30670/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/576x/") 1x, url("https://ucarecdn.com/55a51ab4-393b-493a-80eb-43a537c30670/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1400x/-/crop/1152x700/0,0/") 2x); }
+
+@media (min-width: 576px) {
+  #onn .page-header-image {
+    background-image: -webkit-image-set(url("https://ucarecdn.com/0817a59a-7e54-4c20-a350-9cedba5c875d/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/768x/") 1x, url("https://ucarecdn.com/0817a59a-7e54-4c20-a350-9cedba5c875d/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1536x/") 2x); }
+  #highfive .page-header-image {
+    background-image: -webkit-image-set(url("https://ucarecdn.com/55a51ab4-393b-493a-80eb-43a537c30670/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/768x/") 1x, url("https://ucarecdn.com/55a51ab4-393b-493a-80eb-43a537c30670/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1536x/") 2x); } }
+
+@media (min-width: 768px) {
+  #onn .page-header-image {
+    background-image: -webkit-image-set(url("https://ucarecdn.com/0817a59a-7e54-4c20-a350-9cedba5c875d/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/992x/") 1x, url("https://ucarecdn.com/0817a59a-7e54-4c20-a350-9cedba5c875d/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1984x/") 2x); }
+  #highfive .page-header-image {
+    background-image: -webkit-image-set(url("https://ucarecdn.com/55a51ab4-393b-493a-80eb-43a537c30670/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/992x/") 1x, url("https://ucarecdn.com/55a51ab4-393b-493a-80eb-43a537c30670/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1984x/") 2x); } }
+
+@media (min-width: 992px) {
+  #onn .page-header-image {
+    background-image: -webkit-image-set(url("https://ucarecdn.com/0817a59a-7e54-4c20-a350-9cedba5c875d/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/1200x/") 1x, url("https://ucarecdn.com/0817a59a-7e54-4c20-a350-9cedba5c875d/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/2400x/") 2x); }
+  #highfive .page-header-image {
+    background-image: -webkit-image-set(url("https://ucarecdn.com/55a51ab4-393b-493a-80eb-43a537c30670/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/1200x/") 1x, url("https://ucarecdn.com/55a51ab4-393b-493a-80eb-43a537c30670/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/2400x/") 2x); } }
+
+@media (min-width: 1200px) {
+  #onn .page-header-image {
+    background-image: -webkit-image-set(url("https://ucarecdn.com/0817a59a-7e54-4c20-a350-9cedba5c875d/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/1440x/") 1x, url("https://ucarecdn.com/0817a59a-7e54-4c20-a350-9cedba5c875d/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/2880x/") 2x); }
+  #highfive .page-header-image {
+    background-image: -webkit-image-set(url("https://ucarecdn.com/55a51ab4-393b-493a-80eb-43a537c30670/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/1440x/") 1x, url("https://ucarecdn.com/55a51ab4-393b-493a-80eb-43a537c30670/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/2880x/") 2x); } }

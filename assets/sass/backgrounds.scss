@@ -1,0 +1,79 @@
+$onn-image-uuid: '0817a59a-7e54-4c20-a350-9cedba5c875d';
+$highfive-image-uuid: '55a51ab4-393b-493a-80eb-43a537c30670';
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+#onn .page-header-image {
+  background-image: -webkit-image-set(
+    url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/576x/') 1x, url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1300x/-/crop/750x700/40,80/') 2x
+  );
+}
+
+#highfive .page-header-image {
+  background-image: -webkit-image-set(
+    url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/576x/') 1x, url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1400x/-/crop/1152x700/0,0/') 2x
+  );
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  #onn .page-header-image {
+    background-image: -webkit-image-set(
+      url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/768x/') 1x, url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1536x/') 2x
+    );
+  }
+
+  #highfive .page-header-image {
+    background-image: -webkit-image-set(
+      url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/768x/') 1x, url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1536x/') 2x
+    );
+  }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #onn .page-header-image {
+    background-image: -webkit-image-set(
+      url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/992x/') 1x, url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1984x/') 2x
+    );
+  }
+
+  #highfive .page-header-image {
+    background-image: -webkit-image-set(
+      url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/992x/') 1x, url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/1984x/') 2x
+    );
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #onn .page-header-image {
+    background-image: -webkit-image-set(
+      url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/1200x/') 1x, url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/2400x/') 2x
+    );
+  }
+
+  #highfive .page-header-image {
+    background-image: -webkit-image-set(
+      url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/1200x/') 1x, url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/2400x/') 2x
+    );
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #onn .page-header-image {
+    background-image: -webkit-image-set(
+      url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/1440x/') 1x, url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/2880x/') 2x
+    );
+  }
+
+  #highfive .page-header-image {
+    background-image: -webkit-image-set(
+      url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/1440x/') 1x, url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/2880x/') 2x
+    );
+  }
+}
