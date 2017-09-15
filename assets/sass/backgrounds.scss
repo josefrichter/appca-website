@@ -1,5 +1,5 @@
-$onn-image-uuid: '0817a59a-7e54-4c20-a350-9cedba5c875d';
-$highfive-image-uuid: '55a51ab4-393b-493a-80eb-43a537c30670';
+$onn-image-uuid: '9f5b861f-b2cf-429b-bf22-6ec48f8ccd28';
+$highfive-image-uuid: '1d3943f7-db51-42e9-9937-8299b25b0895';
 
 
 // Extra small devices (portrait phones, less than 576px)
@@ -74,6 +74,21 @@ $highfive-image-uuid: '55a51ab4-393b-493a-80eb-43a537c30670';
   #highfive .page-header-image {
     background-image: -webkit-image-set(
       url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/1440x/') 1x, url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/2880x/') 2x
+    );
+  }
+}
+
+// Super large devices (iMacs, 1920x1080 & 2560x1440 and their retina versions)
+@media (min-width: 1920px) {
+  #onn .page-header-image {
+    background-image: -webkit-image-set(
+      url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/2560x/') 1x, url('https://ucarecdn.com/'+$onn-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/5120x/') 2x
+    );
+  }
+
+  #highfive .page-header-image {
+    background-image: -webkit-image-set(
+      url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/normal/-/progressive/yes/-/resize/2560x/') 1x, url('https://ucarecdn.com/'+$highfive-image-uuid+'/-/format/jpeg/-/quality/lighter/-/progressive/yes/-/resize/5120x/') 2x
     );
   }
 }
