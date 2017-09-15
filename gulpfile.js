@@ -4,6 +4,7 @@ var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
 var connect     = require('gulp-connect');
+var nunjucksRender = require('gulp-nunjucks-render');
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
@@ -21,6 +22,17 @@ gulp.task('js', function() {
         .pipe(browserSync.stream());
 });
 
+gulp.task('nunjucks', function() {
+  // Gets .html and .nunjucks files in pages
+  return gulp.src('pages/**/*.+(html|nhtml)')
+  // Renders template with nunjucks
+  .pipe(nunjucksRender({
+      path: ['templates']
+    }))
+  // output files in app folder
+  .pipe(gulp.dest('.'))
+});
+
 // Static Server + watching scss/html files
 gulp.task('localserve', ['sass'], function() {
 
@@ -30,6 +42,7 @@ gulp.task('localserve', ['sass'], function() {
 
     // gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);
     gulp.watch(['assets/sass/**/*.scss'], ['sass']);
+    gulp.watch(['pages/**/*.+(html|nhtml)'], ['nunjucks']);
     // gulp.watch("src/*.html").on('change', browserSync.reload);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
