@@ -42,7 +42,7 @@ gulp.task('localserve', ['sass'], function() {
 
     // gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);
     gulp.watch(['assets/sass/**/*.scss'], ['sass']);
-    gulp.watch(['pages/**/*.+(html|nhtml)'], ['nunjucks']);
+    gulp.watch(['pages/**/*.+(html|nhtml)', 'templates/**/*.+(html|nhtml)'], ['nunjucks']);
     // gulp.watch("src/*.html").on('change', browserSync.reload);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
