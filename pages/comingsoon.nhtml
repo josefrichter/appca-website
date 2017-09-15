@@ -1,0 +1,17 @@
+{% extends "layout.nhtml" %}
+
+{% block content %}
+  <div class="section section-coming-soon">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <h1 class="title">we are working on it</h1>
+                <h5 class="description">meanwhile please see a gallery of our other projects</h5>
+            </div>
+        </div>
+  </div>
+
+  <div class="section section-gallery gallery gallery-coming-soon text-center">
+    {% include "_carousel.nhtml" %}
+  </div>
+
+{% endblock %}
