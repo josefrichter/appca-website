@@ -12,22 +12,34 @@
                   "55f06144-190a-4b66-af4d-1aa6a3856a56"
                 ] %}
 
+{% set sizes = [
+  640,
+  750,
+  768,
+  960,
+  1024,
+  1080,
+  1125,
+  1136,
+  1242,
+  1334,
+  1536,
+  1920,
+  2048,
+  2208,
+  2436
+] %}
+
 <div id="carousel" class="carousel slide" data-ride="false">
   <div class="carousel-inner">
     {% for uuid in images %}
       <div class="carousel-item {% if loop.first %}active{% endif %}">
         <img class="d-block w-100" src="https://ucarecdn.com/{{uuid}}/1.jpg"
-           srcset="https://ucarecdn.com/{{uuid}}/-/resize/320x/320.jpg 320w,
-                   https://ucarecdn.com/{{uuid}}/-/resize/450x/450.jpg 450w,
-                   https://ucarecdn.com/{{uuid}}/-/resize/640x/640.jpg 640w,
-                   https://ucarecdn.com/{{uuid}}/-/resize/750x/750.jpg 750w,
-                   https://ucarecdn.com/{{uuid}}/-/resize/800x/800.jpg 800w,
-                   https://ucarecdn.com/{{uuid}}/-/resize/900x/900.jpg 900w,
-                   https://ucarecdn.com/{{uuid}}/-/resize/1000x/-/quality/lighter/1000.jpg 1000w,
-                   https://ucarecdn.com/{{uuid}}/-/resize/1200x/-/quality/lighter/1200.jpg 1200w,
-                   https://ucarecdn.com/{{uuid}}/-/resize/1500x/-/quality/lighter/1500.jpg 1500w,
-                   https://ucarecdn.com/{{uuid}}/-/resize/1600x/-/quality/lighter/1600.jpg 16000w,
-                   https://ucarecdn.com/{{uuid}}/-/resize/2000x/-/quality/lightest/2000.jpg 2000w"
+           srcset="
+            {% for size in sizes %}
+              https://ucarecdn.com/{{uuid}}/-/resize/{{size}}x/{{size}}.jpg {{size}}w,
+            {% endfor %}
+                   "
            sizes="100vw">
       </div>
     {% endfor %}
