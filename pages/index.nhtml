@@ -7,7 +7,7 @@
           <div class="row">
               <div class="col-md-12">
                   <h1 class="title">appca.team</h1>
-                  <h3 class="description">mobile apps design & development team with 50 years of experience.</h3>
+                  <h4 class="description">Mobile apps design & development team with 50 years of experience.</h4>
               </div>
           </div>
       </div>
@@ -17,11 +17,27 @@
       <div class="page-header-image" data-parallax="false">
       </div>
       <div class="container">
-          <div class="content">
-              <h1 class="title">High Five</h1>
-              <h5>Buy medical marijuana from a bot.</h5>
-              <a href="/comingsoon.html" class="btn btn-neutral btn-round">more details</a>
+
+          <div class="row">
+            <div class="col-md-5">
+                <img src="/assets/img/appca/hi5/logo-hi5.png" alt="">
+                <h2>High Five<br>Concept</h2>
+                <h4>Buy medical marijuana<br>from a bot.</h4>
+                <!--<a href="/comingsoon.html" class="btn btn-neutral btn-round">more details</a>-->
+            </div>
+            <div class="col-md-7">
+                <img class="mainimage" src="/assets/img/appca/hi5/hi5hand.png" alt="">
+            </div>
           </div>
+          <div class="row meta">
+              <div class="col-md-4">
+                <h5>Problem Solved</h5>
+              </div>
+              <div class="col-md-8">
+                <p class="bigger">20 different apps for cabs, restaurant reservations, tickets, food delivery? Different ones in each country? Now you need just Bellhop app.</p>
+              </div>
+          </div>
+
       </div>
   </div>
 
@@ -46,7 +62,7 @@
     </div>
   </div>
 
-  <div id="onn" class="page-header">
+  <!--<div id="onn" class="page-header">
     <div class="page-header-image" data-parallax="false">
     </div>
     <div class="container">
@@ -55,6 +71,29 @@
             <h5>Book VIP services<br>through a digital concierge.</h5>
             <a href="/comingsoon.html" class="btn btn-primary btn-round">more details</a>
         </div>
+    </div>
+  </div>-->
+  <div id="bellhop" class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <h2>Bellhop</h2>
+            <h4>Traveller’s best friend to book services anywhere in the world.</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="mainimage" src="/assets/img/appca/bellhop/bellhop.png" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+            <h5>Problem solved</h5>
+        </div>
+        <div class="col-md-8">
+            <p class="bigger">20 different apps for cabs, restaurant reservations, tickets, food delivery? Different ones in each country? Now you need just Bellhop app.</p>
+        </div>
+      </div>
     </div>
   </div>
 

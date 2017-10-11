@@ -3,6 +3,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
+var sourcemaps  = require('gulp-sourcemaps');
 var connect     = require('gulp-connect');
 var nunjucksRender = require('gulp-nunjucks-render');
 
@@ -10,7 +11,9 @@ var nunjucksRender = require('gulp-nunjucks-render');
 gulp.task('sass', function() {
     // return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'])
     return gulp.src(['assets/sass/*.scss'])
+        .pipe(sourcemaps.init())
         .pipe(sass())
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest("assets/css"))
         .pipe(browserSync.stream());
 });

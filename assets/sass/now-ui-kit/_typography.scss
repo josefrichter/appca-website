@@ -34,6 +34,7 @@ h1, .h1 {
 h2, .h2{
     font-size: $font-size-h2;
     margin-bottom: $margin-base-vertical * 2;
+    font-weight: $font-weight-bold;
 }
 h3, .h3{
     font-size: $font-size-h3;
@@ -55,11 +56,12 @@ h5, .h5 {
     font-size: $font-size-h5;
     line-height: 1.4em;
     margin-bottom: 15px;
+    color: rgba(0,0,0,0.54);
 }
 h6, .h6{
     font-size: $font-size-h6;
-    font-weight: $font-weight-bold;
-    text-transform: uppercase;
+    font-weight: $font-weight-semi;
+    // text-transform: uppercase;
 }
 p{
     line-height: 1.61em;
