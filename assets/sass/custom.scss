@@ -1,3 +1,32 @@
+/* typography */
+
+h1 {
+  font-size: 12vw;
+}
+
+h3 {
+  font-size: 5vw;
+}
+
+@media screen and (max-width: 575px) {
+  h1 {
+     font-size: 50px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+     font-size: 100px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+}
+
+/* other */
+
 .navbar {
   &.navbar-transparent {
     color:black;
@@ -21,9 +50,14 @@
 
 .section-about-us {
   height: 80vh;
+  margin-top: 80px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  h3 {
+      color: black;
+      font-weight: normal;
+  }
 }
 
 .section-coming-soon {

@@ -5,12 +5,11 @@
   <div class="section section-about-us">
       <div class="container">
           <div class="row">
-              <div class="col-md-8 ml-auto mr-auto text-center">
+              <div class="col-md-12">
                   <h1 class="title">appca.team</h1>
-                  <h5 class="description">Full-stack app design & development team with 50 years of experience.</h5>
+                  <h3 class="description">mobile apps design & development team with 50 years of experience.</h3>
               </div>
           </div>
-          <div class="separator separator-primary"></div>
       </div>
   </div>
 
