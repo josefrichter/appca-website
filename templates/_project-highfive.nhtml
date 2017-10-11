@@ -1,0 +1,27 @@
+<div id="highfive" class="page-header">
+    <div class="page-header-image" data-parallax="false">
+    </div>
+    <div class="container">
+
+        <div class="row">
+          <div class="col-md-5">
+              <img src="/assets/img/appca/hi5/logo-hi5.png" srcset="/assets/img/appca/hi5/logo-hi5.png 1x, /assets/img/appca/hi5/logo-hi5@2x.png 2x, /assets/img/appca/hi5/logo-hi5@3x.png 3x" alt="">
+              <h2>High Five<br>Concept</h2>
+              <h4>Buy medical marijuana<br>from a bot.</h4>
+              <!--<a href="/comingsoon.html" class="btn btn-neutral btn-round">more details</a>-->
+          </div>
+          <div class="col-md-7">
+              <img class="mainimage" src="/assets/img/appca/hi5/hi5hand.png" srcset="/assets/img/appca/hi5/hi5hand.png 1x, /assets/img/appca/hi5/hi5hand@2x.png 2x, /assets/img/appca/hi5/hi5hand@3x.png 3x" alt="">
+          </div>
+        </div>
+        <div class="row meta">
+            <div class="col-md-4">
+              <h5>Problem Solved</h5>
+            </div>
+            <div class="col-md-8">
+              <p class="bigger">20 different apps for cabs, restaurant reservations, tickets, food delivery? Different ones in each country? Now you need just Bellhop app.</p>
+            </div>
+        </div>
+
+    </div>
+</div>

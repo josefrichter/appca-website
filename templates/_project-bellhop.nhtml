@@ -1,0 +1,23 @@
+<div id="bellhop" class="page-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <h2>Bellhop</h2>
+          <h4>Traveller’s best friend to book services anywhere in the world.</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img class="mainimage" src="/assets/img/appca/bellhop/bellhop.png" srcset="/assets/img/appca/bellhop/bellhop.png 1x, /assets/img/appca/bellhop/bellhop@2x.png 2x, /assets/img/appca/bellhop/bellhop@3x.png 3x" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+          <h5>Problem solved</h5>
+      </div>
+      <div class="col-md-8">
+          <p class="bigger">20 different apps for cabs, restaurant reservations, tickets, food delivery? Different ones in each country? Now you need just Bellhop app.</p>
+      </div>
+    </div>
+  </div>
+</div>

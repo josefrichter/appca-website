@@ -1,0 +1,42 @@
+<div class="section section-text">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>What we do</h2>
+          <p class="bigger">At appca.team we believe in Predictability & Efficiency. With very low overhead and a distributed team, we are able to stay competitive, build incredible solutions, and keep our clients connected every step of the way.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Consulting</h5>
+        </div>
+        <div class="col-md-8">
+          <p class="bigger">Using our decades of experience, we can work with you to flush out an idea, build a project plan, or even wire frame your idea. This service is highly valuable to vet out an idea or just simply provide the foundation for your software needs.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>UI/UX Design & Prototyping</h5>
+        </div>
+        <div class="col-md-8">
+          <p class="bigger">When people see an application for the first time, they are looking for ease of use, simple designs, and a beautiful interface. Our incredible team has the background and experience to take your idea and design an application that solves all of these issues and ensures the application is prolific in both usability and design.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Application Development</h5>
+        </div>
+        <div class="col-md-8">
+          <p class="bigger">Apps are what drives our everyday lives. We use them to connect with others, pay for goods and services, or to simply keep up with the latest news and events. Our team has been building these same solutions and can help bring your idea to life.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Post Build Support Growth Hacking</h5>
+        </div>
+        <div class="col-md-8">
+          <p class="bigger">So you now have an awesome application, but how do you get the word out. This is not a “build it and they will come” world. With hundreds of thousands of applications in both app stores, how do you stand out? Appca can help get the word out about your applications. We have the background and experience to ensure your solution is separated from the noise.</p>
+        </div>
+      </div>
+  </div>
+</div>

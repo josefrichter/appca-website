@@ -1,0 +1,15 @@
+<div class="section section-text">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="/assets/img/appca/logo.png" srcset="/assets/img/appca/logo.png 1x, /assets/img/appca/logo@2x.png 2x, /assets/img/appca/logo@3x.png 3x" alt="">
+          <br>
+          <br>
+          <br>
+          <h2>You need an app?</h2>
+          <p class="bigger">You have a great idea and need a great team to turn it into reality. You know a visionary who can’t turn ideas into tangible results is just a dreamer – and there’s no prize for dreamers…</p>
+          <p class="bigger">At appca.team we make things happen efficiently, without breaking the bank. We’ve been working with companies in New York, San Francisco, Silicon Valley, London, Paris, Berlin and all around the world and we have decades of combined experience – we know what we’re doing.</p>
+        </div>
+      </div>
+    </div>
+</div>

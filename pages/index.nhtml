@@ -7,200 +7,30 @@
           <div class="row">
               <div class="col-md-12">
                   <h1 class="title">appca.team</h1>
-                  <h4 class="description">Mobile apps design & development team with 50 years of experience.</h4>
+                  <h4 class="description">Mobile apps design & development team<br>with 50 years of experience.</h4>
               </div>
           </div>
       </div>
   </div>
 
-  <div id="highfive" class="page-header">
-      <div class="page-header-image" data-parallax="false">
-      </div>
-      <div class="container">
+  {% include "_project-highfive.nhtml" %}
 
-          <div class="row">
-            <div class="col-md-5">
-                <img src="/assets/img/appca/hi5/logo-hi5.png" alt="">
-                <h2>High Five<br>Concept</h2>
-                <h4>Buy medical marijuana<br>from a bot.</h4>
-                <!--<a href="/comingsoon.html" class="btn btn-neutral btn-round">more details</a>-->
-            </div>
-            <div class="col-md-7">
-                <img class="mainimage" src="/assets/img/appca/hi5/hi5hand.png" alt="">
-            </div>
-          </div>
-          <div class="row meta">
-              <div class="col-md-4">
-                <h5>Problem Solved</h5>
-              </div>
-              <div class="col-md-8">
-                <p class="bigger">20 different apps for cabs, restaurant reservations, tickets, food delivery? Different ones in each country? Now you need just Bellhop app.</p>
-              </div>
-          </div>
+  {% include "_intro.nhtml" %}
 
-      </div>
-  </div>
+  {% include "_project-bellhop.nhtml" %}
 
-  <div class="section section-testimonial">
-    <div class="container">
-      <div class="row text align-items-center">
-        <div class="col-md-8">
-          <h5>"<strong>Tom</strong> is one of the most talented designers I've ever worked with. His work ethic and output is world class. He's also an amazing cook!"</h5>
-        </div>
-        <div class="col-md-4">
-          <div class="row align-items-center flex-lg-row flex-column">
-            <div class="">
-              <img src="../assets/img/appca/avatars/testimonials/dan-martell.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-            </div>
-            <div class="meta text-center text-lg-left">
-              <h5>Dan Martell</h5>
-              <h6>Clarity</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  {% include "_whatwedo.nhtml" %}
 
-  <!--<div id="onn" class="page-header">
-    <div class="page-header-image" data-parallax="false">
-    </div>
-    <div class="container">
-        <div class="content">
-            <h1 class="title">ONN</h1>
-            <h5>Book VIP services<br>through a digital concierge.</h5>
-            <a href="/comingsoon.html" class="btn btn-primary btn-round">more details</a>
-        </div>
-    </div>
-  </div>-->
-  <div id="bellhop" class="page-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-            <h2>Bellhop</h2>
-            <h4>Traveller’s best friend to book services anywhere in the world.</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <img class="mainimage" src="/assets/img/appca/bellhop/bellhop.png" alt="">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-            <h5>Problem solved</h5>
-        </div>
-        <div class="col-md-8">
-            <p class="bigger">20 different apps for cabs, restaurant reservations, tickets, food delivery? Different ones in each country? Now you need just Bellhop app.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  {% include "_project-bellhop.nhtml" %}
 
-  <div class="section section-testimonial">
-    <div class="container">
-      <div class="row text align-items-center">
-        <div class="col-md-8">
-          <h5>"<strong>Josef</strong> is one of the best mobile UI/UX designers we have ever worked with. Josef has a very minimalistic design style. One of the best parts about Josef is, that he delivers not only in stunning quality, but in time."</h5>
-        </div>
-        <div class="col-md-4">
-          <div class="row align-items-center flex-lg-row flex-column">
-            <div class="">
-              <img src="../assets/img/appca/avatars/testimonials/lukas-kinigadner.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-            </div>
-            <div class="meta text-center text-lg-left">
-              <h5>Lukas Kinigadner</h5>
-              <h6>Anyline.io</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="section section-team text-center">
-      <div class="container">
-          <h2 class="title">This is our team</h2>
-          <div class="team">
-              <div class="row">
-                  <div class="col-xl-3 col-md-6">
-                      <div class="team-player">
-                          <img src="../assets/img/appca/avatars/josef.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                          <h4 class="title">Josef Richter</h4>
-                          <p class="category text-primary">Project Manager, UX</p>
-                          <p class="description">Josef is a seasoned Project Manager and senior UX/UI designer. He has been doing mainly iPhone apps projects for over the past 8 years for clients in Silicon Valley, NYC and all over the Western Europe. Having gone through YCombinator, Josef loves making simple, easy to use and great looking apps.</p>
-                          <a href="https://www.linkedin.com/in/josefrichter/" class="btn btn-primary btn-icon btn-round"><i class="fa fa-linkedin"></i></a>
-                          <a href="https://angel.co/josefrichter" class="btn btn-primary btn-icon btn-round"><i class="fa fa-angellist"></i></a>
-                      </div>
-                  </div>
-                  <div class="col-xl-3 col-md-6">
-                      <div class="team-player">
-                          <img src="../assets/img/appca/avatars/tom.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                          <h4 class="title">Tom Junker</h4>
-                          <p class="category text-primary">UI Designer</p>
-                          <p class="description">Tom is an experienced UI designer and illustrator and a internationally renowed graffiti artist. He’s been leading design teams on wide variety of projects, small and big. He spent time on projects in Boston and in Canada and worked with many companies all around the world.</p>
-                          <a href="https://www.linkedin.com/in/tom-junker-4451b047/" class="btn btn-primary btn-icon btn-round"><i class="fa fa-linkedin"></i></a>
-                          <a href="https://angel.co/pauser" class="btn btn-primary btn-icon btn-round"><i class="fa fa-angellist"></i></a>
-                      </div>
-                  </div>
-                  <div class="col-xl-3 col-md-6">
-                      <div class="team-player">
-                          <img src="../assets/img/appca/avatars/peter.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                          <h4 class="title">Peter Stajger</h4>
-                          <p class="category text-primary">iOS Developer</p>
-                          <p class="description">Peter is a senior iPhone apps developer, while being a great design talent at the same time, which is a very rare combination. That’s why he’s obsessed with pixel-perfect and visually stunning applications. He also spent time honing his craft on several projects in Silicon Valley. He is also a leader and an organizer of his homecountry’s iOS community.</p>
-                          <a href="https://www.linkedin.com/in/peter-stajger-a309218b/" class="btn btn-primary btn-icon btn-round"><i class="fa fa-linkedin"></i></a>
-                          <a href="https://angel.co/peter-stajger" class="btn btn-primary btn-icon btn-round"><i class="fa fa-angellist"></i></a>
-                      </div>
-                  </div>
-                  <div class="col-xl-3 col-md-6">
-                      <div class="team-player">
-                          <img src="../assets/img/appca/avatars/stefan.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                          <h4 class="title">Stefan Luptak</h4>
-                          <p class="category text-primary">iOS Developer</p>
-                          <p class="description">Stefan is a developer with almost 2 decades of experience in numerous technologies, focusing on mobile apps in the last couple of years. He has been working on huge projects with over 200 millions of users. At the same time, given his vast experience, he’s able to move fast and be very efficient on smaller scale projects. He also gives back to community by teaching iOS development.</p>
-                          <a href="https://www.linkedin.com/in/eskimag/" class="btn btn-primary btn-icon btn-round"><i class="fa fa-linkedin"></i></a>
-                          <a href="https://angel.co/stefan-luptak" class="btn btn-primary btn-icon btn-round"><i class="fa fa-angellist"></i></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
   <div class="section section-contact-us text-center">
       <div class="container">
-          <h2 class="title">Want to work with us?</h2>
-          <p class="description">Your project is very important to us.</p>
-          <!-- <div class="row">
-              <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
-                  <div class="input-group input-lg">
-                      <span class="input-group-addon">
-                          <i class="now-ui-icons users_circle-08"></i>
-                      </span>
-                      <input type="text" class="form-control" placeholder="First Name...">
-                  </div>
-                  <div class="input-group input-lg">
-                      <span class="input-group-addon">
-                          <i class="now-ui-icons ui-1_email-85"></i>
-                      </span>
-                      <input type="text" class="form-control" placeholder="Email...">
-                  </div>
-                  <div class="textarea-container">
-                      <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Type a message..."></textarea>
-                  </div>
-                  <div class="send-button">
-                      <a href="#pablo" class="btn btn-primary btn-round btn-block btn-lg">Send Message</a>
-                  </div>
-              </div>
-          </div> -->
-          <div class="col-lg-4 text-center col-md-8 ml-auto mr-auto send-button">
-              <a href="mailto:josef@appca.team?subject=I need help with a project!" class="btn btn-primary btn-round btn-block btn-lg">Message Us!</a>
+          <div class="text-center col-md-12 ml-auto mr-auto send-button">
+              <h1>Want to work with us?</h1>
+              <a href="mailto:hello@appca.team?subject=I need help with a project!" class="">hello@appca.team</a>
           </div>
       </div>
-  </div>
-
-  <div class="section section-gallery gallery text-center">
-    {% include "_carousel.nhtml" %}
   </div>
 
 
