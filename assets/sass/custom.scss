@@ -5,6 +5,7 @@
 
 p.bigger {
   font-size: 1.79em;
+  font-weight: 500;
 }
 
 
@@ -139,6 +140,22 @@ footer {
 }
 
 #onn {
+  * {
+    color: white;
+  }
+  img {
+    max-width: none;
+  }
+  .row:first-of-type {
+    padding-top: 200px;
+  }
+  .row:nth-of-type(2) {
+    margin-top: -300px;
+  }
+  .row:last-of-type {
+    padding-top: 00px;
+    padding-bottom: 140px;
+  }
   .content {
     h1 {
       margin-bottom: .1em;
@@ -211,6 +228,42 @@ footer {
     }
     img {
       max-width: 150px;
+    }
+  }
+}
+
+#about {
+  .intro {
+    text-align: center;
+    margin-bottom: 10vh;
+    h1 {
+      font-size: 5em;
+      font-weight: bold;
+    }
+  }
+  .avatar {
+    width:64px;
+    margin-right: 30px;
+  }
+  h3, h4, h5, h6 {
+    margin:0 0 6px;
+  }
+  .social-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #D9D9D9;
+    &:first-of-type {
+      margin-left: 90px;
+    }
+    &:hover {
+      color: #007bff;
+    }
+    float: left;
+    .fa {
+      font-size: 24px;
     }
   }
 }
