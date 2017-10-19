@@ -27,6 +27,7 @@ footer {
     color: #95A8B2;
   }
   .row>div {
+    padding-top: 10px;
     margin-bottom: 1em;
   }
 }
@@ -179,7 +180,7 @@ footer {
     // position: absolute;
     overflow: scroll;
     margin-top: -300px;
-    padding-left: 0vw;
+    padding-left: 12vw;
     &::-webkit-scrollbar {
       display: none;
     }

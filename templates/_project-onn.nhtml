@@ -16,7 +16,7 @@
           <h5>Project details</h5>
       </div>
       <div class="col-md-8">
-          <p class="bigger">We did complete iOS app development, Backend development in Ruby, integrations with Twillio for real-time messaging and voice calls, and with Braintree for credit card processing. Currently we are working on Android app too.</p>
+          <p class="bigger">We did complete iOS app development, Backend development in Ruby, integrations with Twilio for real-time messaging and voice calls, and with Braintree for credit card processing. Currently we are working on Android app too.</p>
       </div>
     </div>
   </div>
