@@ -1,4 +1,4 @@
-<div id="bellhop" class="page-header">
+<div id="bellhop" class="xpage-header">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -6,11 +6,11 @@
           <h4>Traveller’s best friend to book services anywhere in the world.</h4>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img class="mainimage" src="/assets/img/appca/bellhop/bellhop.png" srcset="/assets/img/appca/bellhop/bellhop.png 1x, /assets/img/appca/bellhop/bellhop@2x.png 2x, /assets/img/appca/bellhop/bellhop@3x.png 3x" alt="">
-      </div>
-    </div>
+  </div>
+  <div class="row-image">
+    <img class="mainimage" src="/assets/img/appca/bellhop/bellhop.png" srcset="/assets/img/appca/bellhop/bellhop.png 1x, /assets/img/appca/bellhop/bellhop@2x.png 2x, /assets/img/appca/bellhop/bellhop@3x.png 3x" alt="">
+  </div>
+  <div class="container">
     <div class="row">
       <div class="col-md-4">
           <h5>Problem solved</h5>
@@ -20,4 +20,5 @@
       </div>
     </div>
   </div>
+
 </div>

@@ -1,0 +1,8 @@
+<div class="section section-contact-us text-center">
+    <div class="container">
+        <div class="text-center col-md-12 ml-auto mr-auto send-button">
+            <h1>Want to work with us?</h1>
+            <a href="mailto:hello@appca.team?subject=I need help with a project!" class="">hello@appca.team</a>
+        </div>
+    </div>
+</div>

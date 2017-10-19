@@ -158,6 +158,13 @@
         border-top: none;
         text-align: left;
 
+        a {
+          text-transform: capitalize !important;
+          font-weight: 600 !important;
+          font-size: 1.7em !important;
+        }
+
+
         max-height: none !important;
 
         @include transform-translate-x(300px);
@@ -165,10 +172,10 @@
 
         &:before{
             background: $brand-primary; /* For browsers that do not support gradients */
-            background: -webkit-linear-gradient($brand-primary 0%, #000 80%); /* For Safari 5.1 to 6.0 */
-            background: -o-linear-gradient($brand-primary 0%, #000 80%); /* For Opera 11.1 to 12.0 */
-            background: -moz-linear-gradient($brand-primary 0%, #000 80%); /* For Firefox 3.6 to 15 */
-            background: linear-gradient($brand-primary 0%, #000 80%); /* Standard syntax (must be last) */
+            background: -webkit-linear-gradient($brand-primary 0%, darken($brand-primary, 20%) 80%); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient($brand-primary 0%, darken($brand-primary, 20%) 80%); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient($brand-primary 0%, darken($brand-primary, 20%) 80%); /* For Firefox 3.6 to 15 */
+            background: linear-gradient($brand-primary 0%, darken($brand-primary, 20%) 80%); /* Standard syntax (must be last) */
             @include opacity(.76);
 
             display: block;
