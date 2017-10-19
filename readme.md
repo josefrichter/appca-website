@@ -11,4 +11,4 @@ templates and partials are in /templates
 pages are in /pages
 result is rendered to root folder as plain html
 
-`gul nunjucks`
+`gulp nunjucks`
