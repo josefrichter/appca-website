@@ -11,7 +11,11 @@
               <!--<a href="/comingsoon.html" class="btn btn-neutral btn-round">more details</a>-->
           </div>
           <div class="col-md-7">
-              <img class="mainimage" src="/assets/img/appca/hi5/hi5hand.png" srcset="/assets/img/appca/hi5/hi5hand.png 1x, /assets/img/appca/hi5/hi5hand@2x.png 2x, /assets/img/appca/hi5/hi5hand@3x.png 3x" alt="">
+              <img class="mainimage" src="https://ucarecdn.com/c55421cf-7552-465a-a072-4d349a326888/-/format/png/-/quality/normal/-/progressive/yes/-/resize/546x/"
+                srcset="https://ucarecdn.com/c55421cf-7552-465a-a072-4d349a326888/-/format/png/-/quality/normal/-/progressive/yes/-/resize/546x/ 1x,
+                        https://ucarecdn.com/c55421cf-7552-465a-a072-4d349a326888/-/format/png/-/quality/normal/-/progressive/yes/-/resize/1092x/ 2x,
+                        https://ucarecdn.com/c55421cf-7552-465a-a072-4d349a326888/-/format/png/-/quality/normal/-/progressive/yes/-/resize/1092x/ 3x"
+                        alt="">
               {# <iframe src="https://hi5staging.herokuapp.com" frameborder="0"></iframe> #}
           </div>
         </div>
