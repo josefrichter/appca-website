@@ -9,13 +9,13 @@
   </div>
 
   <div class="row-image">
-    {# <picture class="mainimage">
+    <picture class="mainimage">
       <source srcset="https://appca.rokka.io/onn/565659447954c6642caca2dc1a34e344f68174a4.jpg 1x,
                       https://appca.rokka.io/onn/options-dpr-2/565659447954c6642caca2dc1a34e344f68174a4.jpg 2x,
                       https://appca.rokka.io/onn/options-dpr-2/565659447954c6642caca2dc1a34e344f68174a4.jpg 3x">
       <img src="https://appca.rokka.io/onn/565659447954c6642caca2dc1a34e344f68174a4.jpg" alt="">
-    </picture> #}
-    <picture class="mainimage">
+    </picture>
+    {# <picture class="mainimage">
       <source srcset="https://ucarecdn.com/fb4ae519-243f-4748-8d58-0dc4a459099f/-/format/webp/-/quality/normal/-/resize/1265x/ 1x,
                       https://ucarecdn.com/fb4ae519-243f-4748-8d58-0dc4a459099f/-/format/webp/-/quality/normal/-/resize/2530x/ 2x,
                       https://ucarecdn.com/fb4ae519-243f-4748-8d58-0dc4a459099f/-/format/webp/-/quality/normal/-/quality/lightest/-/resize/2530x/ 3x" type="image/webp">
@@ -24,7 +24,7 @@
                       https://ucarecdn.com/fb4ae519-243f-4748-8d58-0dc4a459099f/-/format/png/-/resize/2530x/ 3x"
                       type="image/png">
       <img src="https://ucarecdn.com/fb4ae519-243f-4748-8d58-0dc4a459099f/-/format/png/-/resize/1265x/">
-    </picture>
+    </picture> #}
   </div>
 
   <div class="container">

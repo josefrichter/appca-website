@@ -78,7 +78,7 @@ footer {
   }
   h4 {
       // font-size: 2.85em;
-      font-size: 2.9vw;
+      font-size: 3.3vw;
       color: black;
       font-weight: normal;
   }
@@ -88,11 +88,11 @@ footer {
   .section-about-us {
     h1 {
       // font-size: 3.4em;
-      font-size: 11vw;
+      font-size: 13vw;
     }
     h4 {
       // font-size: 1.6em;
-      font-size: 3.7vw;
+      font-size: 5.7vw;
     }
   }
   p.bigger {
@@ -185,15 +185,18 @@ footer {
     &::-webkit-scrollbar {
       display: none;
     }
+    img {
+      width:1265px;
+    }
   }
   @media (max-width: 767px) {
     .row-image {
-      margin-top: -40vw;
+      // margin-top: -40vw;
       padding-left: 0;
-      margin-left: calc(-320px + 22vw);
+      margin-left: calc(-300px + 0vw);
       // margin-left: -300px;
       img {
-
+        width:1265px;
       }
     }
   }

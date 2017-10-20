@@ -634,8 +634,8 @@ pre code {
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
-    /*width: 100%*/
-    width: 90%
+    /*width: 100%;*/
+    width: 90%;
 }
 
 @media (min-width:576px) {
@@ -3451,7 +3451,8 @@ tbody.collapse.show {
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    justify-content: center;
     padding: .5rem 1rem
 }
 
