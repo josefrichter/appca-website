@@ -179,7 +179,8 @@ footer {
   .row-image {
     // position: absolute;
     overflow: scroll;
-    margin-top: -300px;
+    margin-top: -250px;
+    // margin-top: -40vw;
     padding-left: 12vw;
     &::-webkit-scrollbar {
       display: none;
@@ -187,9 +188,9 @@ footer {
   }
   @media (max-width: 767px) {
     .row-image {
-      // margin-top: -200px;
+      margin-top: -40vw;
       padding-left: 0;
-      margin-left: calc(-350px + 25vw);
+      margin-left: calc(-300px + 30vw);
       // margin-left: -300px;
       img {
 
@@ -205,7 +206,7 @@ footer {
   }
 
   .container:first-of-type .row {
-    padding-top: 200px;
+    padding-top: 150px;
   }
   .row:nth-of-type(2) {
     margin-top: -300px;
