@@ -37,7 +37,7 @@
         <img class="d-block w-100" src="https://ucarecdn.com/{{uuid}}/1.jpg"
            srcset="
             {% for size in sizes %}
-              https://ucarecdn.com/{{uuid}}/-/resize/{{size}}x/{{size}}.jpg {{size}}w,
+              https://ucarecdn.com/{{uuid}}/-/scale_crop/{{size}}x{{size}}/center/{{size}}.jpg {{size}}w,
             {% endfor %}
                    "
            sizes="100vw">

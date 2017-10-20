@@ -1,0 +1,23 @@
+{% extends "layout.nhtml" %}
+
+{% block content %}
+
+  <div id="about" class="section section-text">
+    <div class="container">
+        <div class="row justify-content-center intro">
+          <div class="col-md-10 ml">
+            <h1>Sneak Peek</h1>
+            <p class="bigger">See random samples from a variety of our projects:</p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section section-gallery gallery gallery-coming-soon text-center">
+    {% include "_carousel.nhtml" %}
+  </div>
+
+  {% include "_workwithus.nhtml" %}
+
+
+{% endblock %}
