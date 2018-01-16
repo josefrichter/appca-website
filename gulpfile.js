@@ -6,7 +6,7 @@ var sass        = require('gulp-sass');
 var sourcemaps  = require('gulp-sourcemaps');
 var connect     = require('gulp-connect');
 var nunjucksRender = require('gulp-nunjucks-render');
-const http2 = require('http2');
+var http2 = require('http2');
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
