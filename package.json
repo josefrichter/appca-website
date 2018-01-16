@@ -17,6 +17,7 @@
     "gulp-connect": "^5.0.0",
     "gulp-nunjucks-render": "^2.2.1",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.1"
+    "gulp-sourcemaps": "^2.6.1",
+    "http2": "^3.3.7"
   }
 }
