@@ -12,6 +12,7 @@
   "author": "Josef Richter",
   "license": "ISC",
   "dependencies": {
+    "gulp": "^3.9.1",
     "browser-sync": "^2.26.7",
     "gulp-connect": "^5.7.0",
     "gulp-nunjucks-render": "^2.2.3",
@@ -20,6 +21,6 @@
     "http2": "^3.3.7"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    
   }
 }
