@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "appca website using now ui kit for bootstrap 4",
   "main": "index.html",
-  "engines": {
-    "node": "10.15.0"
-  },
   "directories": {
     "example": "examples"
   },
