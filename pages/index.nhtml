@@ -18,9 +18,9 @@
 
   {% include "_intro.nhtml" %}
 
-  {% include "_whatwedo.nhtml" %}
-
   {% include "_project-bellhop.nhtml" %}
+
+  {% include "_whatwedo.nhtml" %}
 
   {% include "_workwithus.nhtml" %}
 
