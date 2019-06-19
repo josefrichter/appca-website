@@ -18,8 +18,6 @@
 
   {% include "_intro.nhtml" %}
 
-  {% include "_project-onn.nhtml" %}
-
   {% include "_whatwedo.nhtml" %}
 
   {% include "_project-bellhop.nhtml" %}
