@@ -38,7 +38,7 @@ gulp.task('nunjucks', function() {
 });
 
 // Static Server + watching scss/html files
-gulp.task('localserve', ['sass'], function() {
+gulp.task('localserve', gulp.series('sass'), function() {
 
     browserSync.init({
         server: "."
@@ -65,4 +65,4 @@ gulp.task('build', function() {
 });
 
 // gulp.task('default', ['js','serve']);
-gulp.task('default', ['localserve']);
+gulp.task('default', gulp.series('localserve'));
