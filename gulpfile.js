@@ -6,7 +6,7 @@ var sass        = require('gulp-sass');
 var sourcemaps  = require('gulp-sourcemaps');
 var connect     = require('gulp-connect');
 var nunjucksRender = require('gulp-nunjucks-render');
-// var http2 = require('http2');
+var http2 = require('http2');
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
@@ -58,9 +58,8 @@ gulp.task('build', function() {
   connect.server({
     root: ".",
     port: process.env.PORT || 5000, // localhost:5000
-    livereload: false
-    // livereload: false,
-    // https: true
+    livereload: false,
+    https: true
   });
 });
 
