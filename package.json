@@ -1,9 +1,6 @@
 {
   "name": "appca-now-ui-kit",
   "version": "1.0.0",
-  "engines": {
-    "node": "12.x"
-  },
   "description": "appca website using now ui kit for bootstrap 4",
   "main": "index.html",
   "directories": {
