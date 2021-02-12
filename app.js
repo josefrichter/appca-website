@@ -4,6 +4,7 @@ const app = express();
 const isDev = app.get('env') === 'development';
  
 app.set('views', __dirname + '/templates');
+app.use(express.static('public'))
  
 const njk = expressNunjucks(app, {
     watch: isDev,
