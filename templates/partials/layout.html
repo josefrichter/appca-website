@@ -74,16 +74,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About us</a>
+                        <a class="nav-link" href="about">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                        <a class="nav-link" href="testimonials">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sneakpeek.html">Sneak Peek</a>
+                        <a class="nav-link" href="sneakpeek">Sneak Peek</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        <a class="nav-link" href="contact-us">Contact Us</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
@@ -112,44 +112,7 @@
     <div class="wrapper">
 
         <!-- You write code for this content block in another file -->
-        
-
-  <div class="section section-contact-us text-center">
-    <div class="container">
-
-      <div class="row">
-        <div class="text-center col-md-12 ml-auto mr-auto send-button">
-            <h1>Want to work with us?</h1>
-            <a href="mailto:hello@appca.team?subject=I need help with a project!" class="">hello@appca.team</a>
-        </div>
-      </div>
-
-      <div class="row mt-5">
-        <div class="text-center col-md-6 ml-auto mr-auto send-button">
-            <h5 class="mt-5">or use this contact form:</h5>
-            <form action="https://formspree.io/f/hello@appca.team" method="POST">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                <input type="text" name="company" class="form-control" placeholder="Your Company">
-              </div>
-              <div class="form-group">
-                <input type="email" name="_replyto" class="form-control" placeholder="Your Email">
-              </div>
-              <textarea name="message" rows="4" class="form-control" placeholder="Your Message"></textarea>
-              <input type="hidden" name="_cc" value="hello@appca.team" />
-              <br>
-              <input type="submit" class="btn btn-primary btn-round" value="Send">
-          </form>
-        </div>
-      </div>
-
-    </div>
-</div>
-
-
-
+        {% block content %} {% endblock %}
 
         <footer class="footer footer-default">
             <div class="container">

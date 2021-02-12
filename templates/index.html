@@ -1,4 +1,4 @@
-{% extends "layout.njk" %}
+{% extends "./partials/layout.html" %}
 
 {% block content %}
 
@@ -8,21 +8,21 @@
               <div class="col-md-12">
                   <h1 class="title">appca.team</h1>
                   <h4 class="description">Mobile apps design & development team<br>with 50 years of experience.</h4>
-                  <a href="/contact-us.html" class="btn btn-primary btn-round btn-lg">Hire Us!</a>
+                  <a href="/contact-us" class="btn btn-primary btn-round btn-lg">Hire Us!</a>
               </div>
           </div>
       </div>
   </div>
 
-  {% include "_project-highfive.njk" %}
+  {% include "./partials/_project-highfive.html" %}
 
-  {% include "_intro.njk" %}
+  {% include "./partials/_intro.html" %}
 
-  {% include "_project-bellhop.njk" %}
+  {% include "./partials/_project-bellhop.html" %}
 
-  {% include "_whatwedo.njk" %}
+  {% include "./partials/_whatwedo.html" %}
 
-  {% include "_workwithus.njk" %}
+  {% include "./partials/_workwithus.html" %}
 
 
 

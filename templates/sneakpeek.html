@@ -1,4 +1,4 @@
-{% extends "layout.njk" %}
+{% extends "./partials/layout.html" %}
 
 {% block content %}
 
@@ -14,10 +14,10 @@
   </div>
 
   <div class="section section-gallery gallery gallery-coming-soon text-center">
-    {% include "_carousel.njk" %}
+    {% include "./partials/_carousel.html" %}
   </div>
 
-  {% include "_workwithus.njk" %}
+  {% include "./partials/_workwithus.html" %}
 
 
 {% endblock %}
