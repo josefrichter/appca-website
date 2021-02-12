@@ -1,0 +1,11 @@
+name: appca-website
+region: fra
+static_sites:
+- environment_slug: html
+  github:
+    branch: static
+    deploy_on_push: true
+    repo: josefrichter/appca-website
+  name: appca-website
+  routes:
+  - path: /
